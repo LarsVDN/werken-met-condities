@@ -5,6 +5,8 @@
 # kaasHard = "Is de kaas hard als steen? (ja/nee): "
 # kaasKorst = "Heeft de kaas een korst? (ja/nee): "
 
+# bovenstaande regels waren er om te onthouden welke vragen er gesteld worden
+
 
 kaasGeel = input("Is de kaas geel? (ja/nee): ")
 if kaasGeel == 'ja'.lower():

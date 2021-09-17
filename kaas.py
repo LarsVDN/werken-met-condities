@@ -9,31 +9,31 @@
 
 
 kaasGeel = input("Is de kaas geel? (ja/nee): ")
-if kaasGeel == 'ja'.lower():
+if kaasGeel == 'ja':
     kaasGaten = input("Zitten er gaten in? (ja/nee): ")
-    if kaasGaten == 'ja'.lower():
+    if kaasGaten == 'ja':
         kaasDuur = input("Is de kaas belachelijk duur? (ja/nee): ")
-        if kaasDuur == 'ja'.lower():
+        if kaasDuur == 'ja':
             print("De kaas is Emmenthaler")
-        if kaasDuur == 'nee'.lower():
+        if kaasDuur == 'nee':
             print("De kaas is Leerdammer")
     else:
         kaasHard = input("Is de kaas hard als steen? (ja/nee): ")
-        if kaasHard == 'ja'.lower():
+        if kaasHard == 'ja':
             print("De kaas is Parmigiano Reggiano")
-        if kaasHard == 'nee'.lower():
+        if kaasHard == 'nee':
             print("De kaas is Goudse Kaas")
 else:
     kaasSchimmels = input("Heeft de kaas blauwe schimmels? (ja/nee): ")
-    if kaasSchimmels == 'ja'.lower():
+    if kaasSchimmels == 'ja':
         kaasKorst = input("Heeft de kaas een korst? (ja/nee): ")
-        if kaasKorst == 'ja'.lower():
+        if kaasKorst == 'ja':
             print("De kaas is Bleu de Rochbaron")
-        if kaasKorst == 'nee'.lower():
+        if kaasKorst == 'nee':
             print("De kaas is fourme d'ambert")
-    if kaasSchimmels == 'nee'.lower():
+    if kaasSchimmels == 'nee':
         kaasKorst = input("Heeft de kaas een korst? (ja/nee): ")
-        if kaasKorst == 'ja'.lower():
+        if kaasKorst == 'ja':
             print("De kaas is camembert")
-        if kaasKorst == 'nee'.lower():
+        if kaasKorst == 'nee':
             print("De kaas is Mozzarella")
